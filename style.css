@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, input, textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding: 1rem 0;
+    background-color: #182c61;
+    color: #ecf0f1;
+    display: flex;
+}
+
+header, section h2, section h3 {
+    font-family: 'Bungee', sans-serif;
+    font-weight: normal;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+}
+header nav li {
+    display: flex;
+    margin-left: 1rem;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header .container {
+    max-width: 1280px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+main .container {
+    display: flex;
+    padding: 2em;
+    gap: 2em;
+}
+
+section {
+    display: flex;
+    gap: 1em;
+    padding: 2em;
+}
+
+.texto-sobre-a-loja h2{
+    color: #182c61;
+}
+
+.texto-sobre-a-loja {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.lista-marcas {
+    display: flex;
+    gap: 0.5em;
+    list-style: none;
+}
+
+.marca {
+    height: 25px;
+    object-fit: cover;
+}
+
+.marca img {
+    height: 100%;
+}
+
+.container-contato {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 2em;
+}
+
+.sec-contato {
+    display: flex;
+    flex-direction: column;
+}
+.sec-contato h2, .sec-contato h3 {
+    color: #182c61;
+
+}
+.form-fale-conosco {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: .5em;
+}
+
+.form-fale-conosco input, 
+.form-fale-conosco textarea, 
+.form-fale-conosco button {
+    border-radius: 4px;
+    padding: 2px;
+    
+}
+
+
+.form-fale-conosco button {
+    border: none;
+    background-color: #182c61;
+    color: white;
+    font-family: 'bungee', sans-serif;
+    cursor: pointer;
+}
+
+.form-fale-conosco button:hover {
+    background-color: #324a8a ;
+}
+
+input:focus, 
+textarea:focus {
+    outline-color: #611818;
+}
+
+.form-fale-conosco textarea {
+    resize: none;
+    width: 100%;
+}
+
+.div-nos-acompanhe ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.div-nos-acompanhe li a {
+    align-items: center;
+}
+
+footer {
+    background-color: #182c61;
+    color: white;
+    padding: 1em 0;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    
+    
+}
